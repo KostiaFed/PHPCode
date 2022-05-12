@@ -1,0 +1,27 @@
+[04-Sep-2021 11:34:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in /home2/kapitalp/public_html/php/forgotization.php:9
+Stack trace:
+#0 /home2/kapitalp/public_html/php/forgotization.php(9): PDO->query('SELECT * FROM d...')
+#1 {main}
+  thrown in /home2/kapitalp/public_html/php/forgotization.php on line 9
+[04-Sep-2021 11:35:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in /home2/kapitalp/public_html/php/forgotization.php:9
+Stack trace:
+#0 /home2/kapitalp/public_html/php/forgotization.php(9): PDO->query('SELECT * FROM d...')
+#1 {main}
+  thrown in /home2/kapitalp/public_html/php/forgotization.php on line 9
+[04-Sep-2021 11:36:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in /home2/kapitalp/public_html/php/forgotization.php:9
+Stack trace:
+#0 /home2/kapitalp/public_html/php/forgotization.php(9): PDO->query('SELECT * FROM d...')
+#1 {main}
+  thrown in /home2/kapitalp/public_html/php/forgotization.php on line 9
+[07-Sep-2021 16:22:24 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/kapitalp/public_html/php/destroy.php on line 2
+[07-Sep-2021 16:22:28 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/kapitalp/public_html/php/destroy.php on line 2
+[07-Sep-2021 16:29:01 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/kapitalp/public_html/php/destroy.php on line 3
+[07-Sep-2021 16:29:04 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/kapitalp/public_html/php/destroy.php on line 3
+[07-Sep-2021 16:30:28 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/kapitalp/public_html/php/destroy.php on line 3
+[07-Sep-2021 16:30:28 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/kapitalp/public_html/php/destroy.php on line 3
+[07-Sep-2021 16:31:17 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/kapitalp/public_html/php/destroy.php on line 3
+[07-Sep-2021 17:06:23 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home2/kapitalp/public_html/PHPExcel-1.8/Classes/PHPExcel/Shared/OLE.php on line 288
+[08-Sep-2021 14:12:36 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home2/kapitalp/public_html/PHPExcel-1.8/Classes/PHPExcel/Shared/OLE.php on line 288
+[08-Sep-2021 18:15:04 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home2/kapitalp/public_html/PHPExcel-1.8/Classes/PHPExcel/Shared/OLE.php on line 288
+[11-Sep-2021 10:16:17 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home2/kapitalp/public_html/PHPExcel-1.8/Classes/PHPExcel/Shared/OLE.php on line 288
+[11-Sep-2021 10:26:26 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home2/kapitalp/public_html/PHPExcel-1.8/Classes/PHPExcel/Shared/OLE.php on line 288

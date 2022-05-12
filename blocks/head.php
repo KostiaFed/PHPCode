@@ -1,0 +1,1 @@
+<div id="Shapka"><table><tr><td><img id="icon" src="../img/icon.png"/></td><td><b id = "TITLE">Професорська база даних</b><tr/></td></table></div>

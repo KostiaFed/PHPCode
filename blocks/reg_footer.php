@@ -1,0 +1,1 @@
+<footer >Fedorenko&reg</footer>
