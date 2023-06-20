@@ -51,13 +51,14 @@ echo '<script>function modalko(id, vc) {
         }
     }</script>
 ';
-    if(isset($_SESSION['role'])) {
-        if($_SESSION['role'] == "Admin") {
+
+    #if(isset($_SESSION['role'])) {
+    #    if($_SESSION['role'] == "Admin") {
             echo '<button id="btn_modal_window3" onclick="modalko(this.id)" style="border:none;" class="btn btn-primary">
         Додати нового професора
         </button>';
-        }
-    }
+    #    }
+    #}
     ?>
 </div>
 
@@ -65,10 +66,10 @@ echo '<script>function modalko(id, vc) {
     <table class="table table-bordered" style="margin: 10px; width: 99%;">
         <tbody><tr>
             <?php
-            if(isset($_SESSION['role'])) {
-            if($_SESSION['role'] == "Admin") {
+            #if(isset($_SESSION['role'])) {
+            #if($_SESSION['role'] == "Admin") {
             echo '<th></th>';
-            }}
+            #}}
             ?>
             <th>ID</th>
             <th>Ім'я</th>
@@ -178,10 +179,10 @@ echo '<script>function modalko(id, vc) {
 
         while ($row = $result->fetch(PDO::FETCH_LAZY)) {
             echo '<tr class="tra">';
-        if(isset($_SESSION['role'])) {
-        if($_SESSION['role'] == "Admin") {
+        #if(isset($_SESSION['role'])) {
+        #if($_SESSION['role'] == "Admin") {
             echo '<th><input type="checkbox" id="chkbox'.$row[0].' /></th>" onchange="ArrOC('.$row[0].')"</th>';
-        }}
+        #}}
             echo '<th>'.$row[0].'</th>';
             echo '<th>'.$row[1].'</th>';
             echo '<th>'.$row[2].'</th>';
@@ -192,12 +193,12 @@ echo '<script>function modalko(id, vc) {
 
 
 
-            if(isset($_SESSION['role'])) {
-                if($_SESSION['role'] == "Admin") {
+            #if(isset($_SESSION['role'])) {
+                #if($_SESSION['role'] == "Admin") {
                     echo '<th><button id="btn_modal_window2" onclick="modal(this.id, ' . $row[0] . ')" style="border:none;" class="btn lsnow">
 <img src="img/delete.png" width="10px" />
 </button></th>';
-                }}
+            #    }}
             echo '<th><button id="btn_modal_window5" onclick="ProfileLobbier(this.id, ' . $row[0] . ')" style="border:none;" class="btn lsnow">
 <img src="img/MoreInfo.png" width="10px" />
 </button></th>';
@@ -207,12 +208,12 @@ echo '<script>function modalko(id, vc) {
         </tbody>
     </table>
     <?php
-    if(isset($_SESSION['role'])) {
-        if($_SESSION['role'] == "Admin") {
+    #if(isset($_SESSION['role'])) {
+    #    if($_SESSION['role'] == "Admin") {
             echo '<th><button id="btn_modal_window2" onclick="modal(this.id, arr)" style="border:none;" class="btn btn-danger short_marginator">
 Видалити усі обрані
 </button></th>';
-        }}
+    #    }}
     ?>
 </div>
 <?php

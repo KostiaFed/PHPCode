@@ -15,13 +15,13 @@
 </form>
 <div class="marginator">
     <?php
-    if(isset($_SESSION['role'])) {
-        if($_SESSION['role'] == "Admin") {
+    #if(isset($_SESSION['role'])) {
+    #    if($_SESSION['role'] == "Admin") {
             echo '<button id="btn_modal_window3" onclick="modal(this.id)" style="border:none;" class="btn btn-primary">
         Додати нову дисципліну
         </button>';
-        }
-    }
+    #    }
+    #}
     ?>
 </div>
 
@@ -62,12 +62,12 @@
         while ($row = $result->fetch(PDO::FETCH_LAZY)) {
             echo '<tr class="tra"><th>'.$row[0].'</th>';
             echo '<th>'.$row[1].'</th>';
-            if(isset($_SESSION['role'])) {
-                if($_SESSION['role'] == "Admin") {
+            #if(isset($_SESSION['role'])) {
+            #    if($_SESSION['role'] == "Admin") {
                     echo '<th><button id="btn_modal_window2" onclick="modal(this.id, ' . $row[0] . ')" style="border:none;" class="btn lsnow">
 <img src="img/delete.png" width="10px" />
 </button></th>';
-                }}
+            #    }}
                    }
 
         ?>
